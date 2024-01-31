@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <Hero />
       <Routes>
-        <Route path="/" element={<EventPage />} />
-        <Route path="/registration" element={<Registration />} />
+        <Route path="/" element={<EventPage/>}/>
+        <Route path="/registration/:index" element={<Registration/>} />
       </Routes>
       <Footer />
     </>

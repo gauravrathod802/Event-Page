@@ -1,36 +1,80 @@
+.container-registration {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.event-and-form-container {
+    display: flex;
+    /* flex: 1; */
+}
+
+.registration-form {
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 300px;
+}
+
+.event-details {
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 318px;
+}
+
+.event-details img {
+    max-width: 100%;
+}
+
+.event-details p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
 
 .registration-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin: 20px;
-  }
-  
-  .registration-form h2 {
+    gap: 10px;
+}
+
+.registration-form h2 {
     margin-bottom: 10px;
-  }
-  
-  .registration-form form {
+}
+
+.registration-form form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding: 50px;
-  }
-  
-  .registration-form label {
+    padding: 20px;
+}
+
+.registration-form label {
     font-weight: bold;
-  }
-  
-  .registration-form input {
+    margin: 2px;
+}
+
+.registration-form input {
     padding: 8px;
     font-size: 14px;
-  }
-  
-  .registration-form button {
+    margin: 2px;
+}
+
+.registration-form button {
     background-color: #4caf50;
     color: #fff;
     padding: 10px;
@@ -38,10 +82,10 @@
     border: none;
     border-radius: 4px;
     font-size: 16px;
+    margin-top: 10px;
 }
 
-.back{
-    margin-top: 15px;
-    width: 15vw;
+.back {
+    margin: 15px;
     background-color: grey !important;
 }
