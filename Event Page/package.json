@@ -1,11 +1,11 @@
 {
-  "homepage": "https://gauravrathod802.github.io/Event-Page/",
+  "homepage": "https://gauravrathod802.github.io/Event-Page",
   "name": "event-page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
