@@ -26,9 +26,10 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 ### Running the Project
 
 **Run Using**
-```bash npm run dev 
+
+   npm run dev 
 
 ### Build for Production
 
-```bash npm run build
+   npm run build
 
