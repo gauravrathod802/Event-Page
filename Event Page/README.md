@@ -1,8 +1,32 @@
-# React + Vite
+# Event Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Event Page project built using Vite and React.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+These instructions will help you get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installing
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/gauravrathod802/Event-Page.git
+
+   1. Navigate to the project folder:
+      cd Event-Page
+   2. Install dependencies:
+      npm install
+
+
+### Running the Project
+
+npm run dev
+
+
+
+
