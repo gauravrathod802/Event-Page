@@ -33,6 +33,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ### Build for Production
 
+1. **Build Using**
   ```
    npm run build
 
